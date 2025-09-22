@@ -13,8 +13,7 @@ services:
     build: ./docker/php
     volumes:
       - ./src:/var/www/
-    user: 
-      - "1000:1000"
+    user:　"1000:1000"
 
   mysql:
     image: mysql:8.0.37
